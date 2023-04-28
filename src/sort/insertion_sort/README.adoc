@@ -11,8 +11,12 @@
 == 实现
 我们需要内外嵌套的两个循环来实现。外层循环遍历整个数组，内层循环逐个比较已排序好的数组切片，将元素插入合适的位置。
 
+https://github.com/oobot/learning-algorithms/blob/9d4b0ddc8b0f134976746f83e794a7e5bf380363/src/sort/insertion_sort/mod.rs#L3-L14
+
 === 泛型化
 将代码泛型化可以更广泛使用。
+
+https://github.com/oobot/learning-algorithms/blob/9d4b0ddc8b0f134976746f83e794a7e5bf380363/src/sort/insertion_sort/mod.rs#L16-L27
 
 == 性能，时间复杂度
 插入排序的时间复杂度是 __O(n^2^)__
