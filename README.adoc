@@ -1,7 +1,7 @@
 == 排序算法
 
 === 基本排序算法
-* 插入排序 (Insertion Sort)
+* link:src/sort/insertion_sort/[插入排序 (Insertion Sort)]
 * 选择排序 (Selection Sort)
 * 希尔排序 (Shell Sort)
 * 冒泡排序 (Bubble Sort) (bad)
