@@ -20,3 +20,6 @@ https://github.com/oobot/learning-algorithms/blob/9d4b0ddc8b0f134976746f83e794a7
 
 == 性能，时间复杂度
 插入排序的时间复杂度是 __O(n^2^)__
+
+=== 优化
+在查找左侧已排序部分的合适位置时候，可以使用二分搜索。
