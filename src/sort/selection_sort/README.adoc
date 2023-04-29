@@ -13,10 +13,10 @@ ____
 ____
 
 == 实现
-
+https://github.com/oobot/learning-algorithms/blob/59b7fb9c19912c0b269301c6b41493f310c8bc55/src/sort/selection_sort/mod.rs#L3-L15
 
 === 泛型化
-
+https://github.com/oobot/learning-algorithms/blob/59b7fb9c19912c0b269301c6b41493f310c8bc55/src/sort/selection_sort/mod.rs#L17-L29
 
 == 性能，时间复杂度
 选择排序的时间复杂度是 __O(n^2^)__，比插入排序还慢些，在查找右侧未排序部分的最小元素时，重复执行__n__次这个过程。
