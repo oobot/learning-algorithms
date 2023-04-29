@@ -12,10 +12,10 @@
 依次完成比较，最后得到有序的数组。
 
 == 代码
-
+https://github.com/oobot/learning-algorithms/blob/d80df11ace9b0f00835317ec3d13cac3a1f2d02b/src/sort/bubble_sort/mod.rs#L3-L13
 
 === 泛型化
-
+https://github.com/oobot/learning-algorithms/blob/d80df11ace9b0f00835317ec3d13cac3a1f2d02b/src/sort/bubble_sort/mod.rs#L15-L25
 
 == 性能
 冒泡排序的运行时间是 __O(n^2^)__，最好最差的情况都是如此，它是一个__稳定__的排序算法。
