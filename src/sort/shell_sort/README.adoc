@@ -63,3 +63,6 @@ ____
 
 == 性能
 希尔排序是**不稳定的排序**。对于中等规模的数据，希尔排序通常可以达到 O(_n_ log__n__)。而对于大规模数据，它的性能性能通常是 O(_n_^2^)。
+
+* https://www.cnblogs.com/chengxiao/p/6104371.html[扩展阅读1]
+* https://zh.wikipedia.org/zh-hans/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F[扩展阅读2]
