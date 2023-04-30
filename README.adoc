@@ -7,7 +7,7 @@
 * link:src/sort/selection_sort/[选择排序 (Selection Sort)]
 
 === 高级排序算法
-* 希尔排序 (Shell Sort)
+* link:src/sort/shell_sort/[希尔排序 (Shell Sort)]
 * 归并排序 (Merge Sort)
 * 快速排序 (Quicksort)
 * 堆排序 (Heap Sort)

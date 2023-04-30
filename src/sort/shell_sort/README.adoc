@@ -51,8 +51,7 @@ sublist 0:  [ 4, -1, 23, 10, 50, 20, 64, 33, 72 ]
 ----
 
 == 代码
-
-
+https://github.com/oobot/learning-algorithms/blob/75e110478e658518aa41c6dfa4b6eb3ced8e5fc0/src/sort/shell_sort/mod.rs#L2-L20
 
 == 步长序列
 步长序列确定步长的初始大小以及每次迭代是如何变小的。良好的步长序列对于希尔排序表现良好非常重要。
