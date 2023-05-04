@@ -21,3 +21,6 @@ https://github.com/oobot/learning-algorithms/blob/932f5486e4932b7620e24d799b9389
 `merge_sort` 函数通过递归调用，将数组不断折半拆分，待拆到在只有两个元素的"最小数组"时开始调用 `merge` 函数，`merge` 将 `array` 按 `mid` 分成两半，然后有序合并到一个新数组里。虽然递归的实现符合计算机思维，但排序的中间值一直存放在栈中，在要排序的数组很大时，调用栈会堆叠很深，可能会导致栈溢出。另外，循环的性能通常优于递归调用。下面用循环实现归并排序：
 
 https://github.com/oobot/learning-algorithms/blob/2afaf62b084e0b08b9eeb5dac4a1b3173a17ee64/src/sort/merge_sort/iterative_merge_sort.rs#L3-L48
+
+== 性能
+归并排序是稳定的排序，初始数组是否已经排序不会影响归并排序算法的速度，最好和最坏的情况时间复杂度都是 _O_(__n__log__n__)。优于插入排序、选择排序和冒泡排序。不过归并排序并不是原地排序，它需要一个同等大小的"临时"数组存放中间结果，有时候这可能是个问题。
