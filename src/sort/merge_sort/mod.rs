@@ -1,3 +1,4 @@
+mod iterative_merge_sort;
 
 fn merge_sort<T: Ord + Copy>(array: & mut [T]) {
     let mid = array.len() / 2;
