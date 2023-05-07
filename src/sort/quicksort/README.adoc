@@ -38,6 +38,6 @@ https://github.com/oobot/learning-algorithms/blob/90cfd67014767416453aca8718906a
 这一轮排序完成后，`5` 左边的元素全都小于5，右边的元素全都大于5。之后只要继续对左右两边的元素排序，即可完成整个数组的排序。
 
 代码示例：
-https://github.com/oobot/learning-algorithms/blob/90cfd67014767416453aca8718906ad2c2f2729e/src/sort/quicksort/mod.rs#L29-L47
+https://github.com/oobot/learning-algorithms/blob/44fd7d2be239b89468442ce1a7f3493421d1c634/src/sort/quicksort/mod.rs#L30-L45
 
-
+代码实现比第一种简洁多了。快速排序并非稳定的排序，其性能取决于划分是否平衡，而平衡与否又依赖于划分的元素。如果划分是平衡的，那么快速排序算法与归并排序的性能是一样的。如果划分不平衡，那么快速排序的性能就接近于插入排序了。也就是说，通常情况下，快速排序的性能是__O__(__n__log__n__)，最坏的情况是__O__(_n_^2^)。另外，快速排序还需要少量的额外空间__O__(log__n__)来存储中间数据，但可以忽略不计。
