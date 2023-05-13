@@ -17,6 +17,6 @@
 
 === 非比较排序算法
 * link:src/sort/counting_sort/[计数排序 (Counting Sort)]
-* 基数排序 (Radix Sort)
-* 桶排序 (Bucket Sort)
+* link:src/sort/bucket_sort/[桶排序 (Bucket Sort)]
+* link:src/sort/radix_sort/[基数排序 (Radix Sort)]
 // * 拓扑排序 (Topological Sort)

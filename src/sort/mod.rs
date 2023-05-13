@@ -5,3 +5,5 @@ mod shell_sort;
 mod merge_sort;
 mod quicksort;
 mod counting_sort;
+mod bucket_sort;
+mod radix_sort;
