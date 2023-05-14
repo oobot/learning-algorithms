@@ -3,7 +3,7 @@ mod insertion_sort;
 mod selection_sort;
 mod shell_sort;
 mod merge_sort;
-mod quicksort;
+mod quick_sort;
 mod counting_sort;
 mod bucket_sort;
 mod radix_sort;

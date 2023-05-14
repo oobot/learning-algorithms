@@ -2,14 +2,13 @@
 
 === 基本排序算法
 * link:src/sort/bubble_sort/[冒泡排序 (Bubble Sort)]
-* link:src/sort/insertion_sort/[插入排序 (Insertion Sort)]
 * link:src/sort/selection_sort/[选择排序 (Selection Sort)]
-* 慢排序 (Slow Sort)
+* link:src/sort/insertion_sort/[插入排序 (Insertion Sort)]
 
 === 高级排序算法
 * link:src/sort/shell_sort/[希尔排序 (Shell Sort)]
 * link:src/sort/merge_sort/[归并排序 (Merge Sort)]
-* link:src/sort/quicksort/[快速排序 (Quicksort)]
+* link:src/sort/quick_sort/[快速排序 (Quick Sort)]
 * 堆排序 (Heap Sort)
 
 === 混合排序算法
