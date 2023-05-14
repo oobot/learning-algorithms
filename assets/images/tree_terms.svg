@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="314 129 728 386" width="728" height="386">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#a5a5a5">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#a5a5a5">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="tree_terms" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none">
+    <title>tree_terms</title>
+    <g id="tree_terms_Layer_1">
+      <title>Layer 1</title>
+      <g id="Line_32">
+        <path d="M 796.5 260.5 L 751 334.5 L 797 404.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_7">
+        <circle cx="502" cy="244.5" r="16.0000255664303" fill="#999"/>
+        <circle cx="502" cy="244.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(494.2 235.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.3200002" y="15">B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <circle cx="444" cy="333" r="16.0000255664304" fill="#999"/>
+        <circle cx="444" cy="333" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(436.2 323.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.1680002" y="15">D</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <circle cx="560" cy="333" r="16.0000255664303" fill="#999"/>
+        <circle cx="560" cy="333" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(552.2 323.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.9120002" y="15">E</tspan>
+        </text>
+      </g>
+      <g id="Line_14">
+        <line x1="739.5" y1="333.5" x2="690.272" y2="408.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_13">
+        <line x1="739.5" y1="333.5" x2="788.728" y2="408.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_4">
+        <line x1="493.228" y1="257.88486" x2="452.772" y2="319.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_3">
+        <line x1="510.772" y1="257.88486" x2="551.228" y2="319.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_12">
+        <circle cx="797.5" cy="244.5" r="16.0000255664303" fill="#999"/>
+        <circle cx="797.5" cy="244.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(789.7 235.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.0240002" y="15">C</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <circle cx="739.5" cy="333" r="16.0000255664303" fill="#999"/>
+        <circle cx="739.5" cy="333" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(731.7 323.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="3.208" y="15">F</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <circle cx="855.5" cy="333" r="16.0000255664303" fill="#999"/>
+        <circle cx="855.5" cy="333" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(847.7 323.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="1.7280002" y="15">G</tspan>
+        </text>
+      </g>
+      <g id="Line_9">
+        <line x1="788.728" y1="257.88486" x2="748.272" y2="319.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_8">
+        <line x1="806.272" y1="257.88486" x2="846.728" y2="319.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_16">
+        <circle cx="681.5" cy="422" r="16.0000255664303" fill="#999"/>
+        <circle cx="681.5" cy="422" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(673.7 412.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="5.728" y="15">I</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <circle cx="797.5" cy="422" r="16.0000255664303" fill="#999"/>
+        <circle cx="797.5" cy="422" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(789.7 412.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="3.648" y="15">J</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <circle cx="502" cy="422" r="16.0000255664303" fill="#999"/>
+        <circle cx="502" cy="422" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(494.2 412.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.0240002" y="15">H</tspan>
+        </text>
+      </g>
+      <g id="Line_18">
+        <line x1="452.73746" y1="346.4075" x2="493.26254" y2="408.5925" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_19">
+        <circle cx="650" cy="145.5" r="16.0000255664303" fill="#999"/>
+        <circle cx="650" cy="145.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <text transform="translate(642.2 136.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.6160002" y="15">A</tspan>
+        </text>
+      </g>
+      <g id="Line_20">
+        <line x1="515.3015" y1="235.60238" x2="636.6985" y2="154.39762" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_21">
+        <line x1="663.2875" y1="154.4184" x2="784.2125" y2="235.5816" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_23">
+        <path d="M 652.5552 425.8088 L 729.7887 310.82964 C 733.4841 305.32815 740.9397 303.86406 746.4412 307.5595 C 747.733 308.4272 748.8436 309.53787 749.7113 310.82964 L 826.9448 425.8088 C 830.6402 431.3103 829.1762 438.7659 823.6747 442.4613 C 821.6962 443.7903 819.3668 444.5 816.9835 444.5 L 662.5165 444.5 C 655.8891 444.5 650.5165 439.1274 650.5165 432.5 C 650.5165 430.11664 651.2262 427.78726 652.5552 425.8088 Z" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Line_25">
+        <line x1="666" y1="146" x2="792.2871" y2="229.3692" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_33">
+        <text transform="translate(549 136.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">根</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <text transform="translate(319.073 261)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="17053026e-20" y="14">D 是 B 的左子节点</tspan>
+        </text>
+      </g>
+      <g id="Graphic_35">
+        <text transform="translate(586.7975 202)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">B 是 D 和 E 的父节点</tspan>
+        </text>
+      </g>
+      <g id="Line_37">
+        <line x1="567" y1="145.23596" x2="610.9326" y2="144.22725" marker-end="url(#FilledArrow_Marker)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_38">
+        <line x1="390.49413" y1="284" x2="420.36917" y2="308.69283" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_39">
+        <line x1="593.1667" y1="225" x2="538.1102" y2="238.62222" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_40">
+        <text transform="translate(587.246 261)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">E 是 B 的右子节点</tspan>
+        </text>
+      </g>
+      <g id="Line_41">
+        <line x1="622.9142" y1="284" x2="590.1194" y2="308.99837" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(526 375)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="8739676e-19" y="14">F 做为根的子树</tspan>
+        </text>
+      </g>
+      <g id="Line_43">
+        <line x1="620.83" y1="383.47505" x2="656.10055" y2="383.1041" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_44">
+        <text transform="translate(786.5 165)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">虚线是一条路径</tspan>
+        </text>
+      </g>
+      <g id="Line_45">
+        <line x1="781.5" y1="174.24163" x2="737.3999" y2="174.45263" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_46">
+        <text transform="translate(1003 136.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">第0层</tspan>
+        </text>
+      </g>
+      <g id="Graphic_47">
+        <text transform="translate(1004.2935 235.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">第1层</tspan>
+        </text>
+      </g>
+      <g id="Graphic_48">
+        <text transform="translate(1003 323.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">第2层</tspan>
+        </text>
+      </g>
+      <g id="Graphic_49">
+        <text transform="translate(1003 413)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">第3层</tspan>
+        </text>
+      </g>
+      <g id="Line_51">
+        <line x1="998" y1="145.6313" x2="946.3998" y2="145.94065" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_52">
+        <line x1="999.2935" y1="244.5" x2="944.4" y2="244.5" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_53">
+        <line x1="998" y1="332.5641" x2="944.4" y2="332.721" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_54">
+        <line x1="998" y1="421.74505" x2="943.8993" y2="421.11524" marker-end="url(#FilledArrow_Marker_2)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_55">
+        <text transform="translate(319.073 475.5)" fill="#080808">
+          <tspan font-family="PingFang SC" font-size="13" fill="#080808" x="0" y="14">H、E、I、J 和 G 是末端节点，称为</tspan>
+          <tspan font-family="Courier" font-size="13" fill="#080808" y="14">&quot;</tspan>
+          <tspan font-family="PingFang SC" font-size="13" fill="#080808" y="14">叶子节点</tspan>
+          <tspan font-family="Courier" font-size="13" fill="#080808" y="14">&quot;</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

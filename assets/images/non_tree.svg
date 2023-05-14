@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="350 293 349 171" width="349" height="171">
+  <defs/>
+  <g id="non_tree" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none">
+    <title>non_tree</title>
+    <g id="non_tree_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <circle cx="529" cy="309.5" r="16.0000255664303" fill="#999"/>
+        <circle cx="529" cy="309.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_3">
+        <circle cx="418" cy="381" r="16.0000255664304" fill="#999"/>
+        <circle cx="418" cy="381" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_4">
+        <circle cx="639" cy="381" r="16.0000255664303" fill="#999"/>
+        <circle cx="639" cy="381" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_5">
+        <circle cx="366.5" cy="448" r="16.0000255664304" fill="#999"/>
+        <circle cx="366.5" cy="448" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_6">
+        <circle cx="451.5" cy="448" r="16.0000255664303" fill="#999"/>
+        <circle cx="451.5" cy="448" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_7">
+        <circle cx="683" cy="448" r="16.0000255664303" fill="#999"/>
+        <circle cx="683" cy="448" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Line_8">
+        <line x1="515.5462" y1="318.16617" x2="431.45377" y2="372.33383" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_9">
+        <line x1="408.2481" y1="393.6869" x2="376.2519" y2="435.3131" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_10">
+        <line x1="425.15736" y1="395.3147" x2="444.34264" y2="433.6853" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_11">
+        <line x1="542.4178" y1="318.2216" x2="625.5822" y2="372.2784" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_12">
+        <line x1="647.7846" y1="394.37657" x2="674.2154" y2="434.62343" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_14">
+        <line x1="623.9295" y1="386.3852" x2="466.5705" y2="442.6148" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
