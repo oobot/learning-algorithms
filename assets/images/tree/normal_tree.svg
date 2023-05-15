@@ -13,40 +13,40 @@
     <g id="normal_tree_Layer_1">
       <title>Layer 1</title>
       <g id="Graphic_8">
-        <circle cx="212.5" cy="152" r="16.0000255664304" fill="#999"/>
-        <circle cx="212.5" cy="152" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="212.5" cy="152" r="16.0000255664304" fill="#ccc"/>
+        <circle cx="212.5" cy="152" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_9">
-        <circle cx="454.5" cy="52.5" r="16.0000255664304" fill="#999"/>
-        <circle cx="454.5" cy="52.5" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="454.5" cy="52.5" r="16.0000255664304" fill="#ccc"/>
+        <circle cx="454.5" cy="52.5" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_10">
-        <circle cx="696.5" cy="152" r="16.0000255664303" fill="#999"/>
-        <circle cx="696.5" cy="152" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="696.5" cy="152" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="696.5" cy="152" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_11">
-        <circle cx="454.5" cy="152" r="16.0000255664304" fill="#999"/>
-        <circle cx="454.5" cy="152" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="454.5" cy="152" r="16.0000255664304" fill="#ccc"/>
+        <circle cx="454.5" cy="152" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_15">
-        <circle cx="642.5" cy="236.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="642.5" cy="236.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="642.5" cy="236.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="642.5" cy="236.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_14">
-        <circle cx="758.5" cy="236.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="758.5" cy="236.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="758.5" cy="236.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="758.5" cy="236.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_16">
-        <circle cx="700.5" cy="236.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="700.5" cy="236.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="700.5" cy="236.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="700.5" cy="236.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_19">
-        <circle cx="396.5" cy="240.5" r="16.0000255664304" fill="#999"/>
-        <circle cx="396.5" cy="240.5" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="396.5" cy="240.5" r="16.0000255664304" fill="#ccc"/>
+        <circle cx="396.5" cy="240.5" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Graphic_18">
-        <circle cx="512.5" cy="240.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="512.5" cy="240.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="512.5" cy="240.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="512.5" cy="240.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_20">
         <line x1="227.30187" y1="145.9141" x2="439.69813" y2="58.58589" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>

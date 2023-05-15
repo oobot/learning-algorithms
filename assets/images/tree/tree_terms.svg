@@ -21,22 +21,22 @@
         <path d="M 796.5 260.5 L 751 334.5 L 797 404.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
       </g>
       <g id="Graphic_7">
-        <circle cx="502" cy="244.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="502" cy="244.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="502" cy="244.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="502" cy="244.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(494.2 235.276)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.3200002" y="15">B</tspan>
         </text>
       </g>
       <g id="Graphic_6">
-        <circle cx="444" cy="333" r="16.0000255664304" fill="#999"/>
-        <circle cx="444" cy="333" r="16.0000255664304" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="444" cy="333" r="16.0000255664304" fill="#ccc"/>
+        <circle cx="444" cy="333" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(436.2 323.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.1680002" y="15">D</tspan>
         </text>
       </g>
       <g id="Graphic_5">
-        <circle cx="560" cy="333" r="16.0000255664303" fill="#999"/>
-        <circle cx="560" cy="333" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="560" cy="333" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="560" cy="333" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(552.2 323.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.9120002" y="15">E</tspan>
         </text>
@@ -54,22 +54,22 @@
         <line x1="510.772" y1="257.88486" x2="551.228" y2="319.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
       <g id="Graphic_12">
-        <circle cx="797.5" cy="244.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="797.5" cy="244.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="797.5" cy="244.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="797.5" cy="244.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(789.7 235.276)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.0240002" y="15">C</tspan>
         </text>
       </g>
       <g id="Graphic_11">
-        <circle cx="739.5" cy="333" r="16.0000255664303" fill="#999"/>
-        <circle cx="739.5" cy="333" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="739.5" cy="333" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="739.5" cy="333" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(731.7 323.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="3.208" y="15">F</tspan>
         </text>
       </g>
       <g id="Graphic_10">
-        <circle cx="855.5" cy="333" r="16.0000255664303" fill="#999"/>
-        <circle cx="855.5" cy="333" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="855.5" cy="333" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="855.5" cy="333" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(847.7 323.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="1.7280002" y="15">G</tspan>
         </text>
@@ -81,22 +81,22 @@
         <line x1="806.272" y1="257.88486" x2="846.728" y2="319.61514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
       <g id="Graphic_16">
-        <circle cx="681.5" cy="422" r="16.0000255664303" fill="#999"/>
-        <circle cx="681.5" cy="422" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="681.5" cy="422" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="681.5" cy="422" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(673.7 412.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="5.728" y="15">I</tspan>
         </text>
       </g>
       <g id="Graphic_15">
-        <circle cx="797.5" cy="422" r="16.0000255664303" fill="#999"/>
-        <circle cx="797.5" cy="422" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="797.5" cy="422" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="797.5" cy="422" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(789.7 412.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="3.648" y="15">J</tspan>
         </text>
       </g>
       <g id="Graphic_17">
-        <circle cx="502" cy="422" r="16.0000255664303" fill="#999"/>
-        <circle cx="502" cy="422" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="502" cy="422" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="502" cy="422" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(494.2 412.776)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.0240002" y="15">H</tspan>
         </text>
@@ -105,8 +105,8 @@
         <line x1="452.73746" y1="346.4075" x2="493.26254" y2="408.5925" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
       <g id="Graphic_19">
-        <circle cx="650" cy="145.5" r="16.0000255664303" fill="#999"/>
-        <circle cx="650" cy="145.5" r="16.0000255664303" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        <circle cx="650" cy="145.5" r="16.0000255664303" fill="#ccc"/>
+        <circle cx="650" cy="145.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         <text transform="translate(642.2 136.276)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.6160002" y="15">A</tspan>
         </text>
