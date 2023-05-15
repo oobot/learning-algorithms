@@ -1,3 +1,4 @@
+use std::collections::VecDeque;
 
 struct Node<T> {
     v: T,
@@ -10,6 +11,12 @@ struct Tree<T: Ord> {
 }
 
 impl<T: Ord> Tree<T> {
+
+    fn from(v: T) -> Self {
+        Self {
+            root: Node::from(v)
+        }
+    }
 
     fn find(&self, v: &T) -> Option<Box<&Node<T>>> {
         let mut node = Some(Box::new(&self.root));
@@ -24,11 +31,36 @@ impl<T: Ord> Tree<T> {
     }
 
     fn insert(&mut self, v: T) {
-        todo!()
+        let mut current = &mut self.root;
+        loop {
+            if &v < &current.v { // 走左边
+                if current.left.is_none() {
+                    current.left = Some(Box::new(Node::from(v)));
+                    return;
+                }
+                current = current.left.as_mut().unwrap();
+            } else { // 走右边
+                if current.right.is_none() {
+                    current.right = Some(Box::new(Node::from(v)));
+                    return;
+                }
+                current = current.right.as_mut().unwrap();
+            }
+        }
     }
 
     fn delete(&mut self, v: &T) -> Option<Node<T>> {
         todo!()
     }
 
+}
+
+impl<T> Node<T> {
+    fn from(v: T) -> Self {
+        Self {
+            v,
+            left: None,
+            right: None,
+        }
+    }
 }
