@@ -16,6 +16,7 @@ image::../../../assets/images/tree/unbalanced_binary_search_tree.svg[alt="", tit
 
 用 `Node` 表示一个节点，节点有 `T` 类型的值，可能有左子节点和右子节点。`Tree` 表示一棵树，查找、插入和删除方法定义在 `Tree` 上。
 
+https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L2-L10
 
 == 查找
 
@@ -24,6 +25,8 @@ image::../../../assets/images/tree/unbalanced_binary_search_tree.svg[alt="", tit
 image::../../../assets/images/tree/search_node.svg[alt="", title="查找节点"]
 
 代码示例：
+
+https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L20-L30
 
 === 效率
 从上面的查找过程可以看出，二叉查找树查找节点的时间复杂度是__O__(log__n__)，查找节点所需的次数取决于这个节点所在的层数。节点所在层数越浅，所需步骤越少；层数越深，所需步骤就越多。
@@ -36,6 +39,7 @@ image::../../../assets/images/tree/insert_node.svg[alt="", title="插入节点"]
 
 代码示例：
 
+https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L32-L49
 
 == 遍历
 
@@ -51,6 +55,7 @@ image::../../../assets/images/tree/inorder.svg[alt="", title="中序遍历树"]
 
 代码示例：
 
+https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L51-L57
 
 === 前序遍历和后序遍历
 
@@ -58,13 +63,13 @@ image::../../../assets/images/tree/inorder.svg[alt="", title="中序遍历树"]
 
 前序遍历:: 依次以根节点、左节点、右节点为顺序的遍历方式。
 
-// 代码示例
+https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L59-L65
 
 对于以树结构保存的文件及目录，前序遍历可以用来实现目录结构的显示。如果是目录，先输出目录名，然后再依次输出目录下的所有文件(包括子目录)。如果有子目录，再进入子目录，输出子目录下的所有文件名。这是一个典型的前序遍历过程。
 
 后序遍历:: 依次以左节点、右节点、根节点为顺序的遍历方式。
 
-// 代码示例
+https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L67-L73
 
 后序遍历可以用来统计某个目录的大小，即目录下所有文件的总大小。若要知道某目录的大小，必须先知道目录下所有文件的大小。若存在子目录，要知道子目录的大小，就必须先知道子目录下所有文件的大小。这是一个典型的后序遍历过程。
 
