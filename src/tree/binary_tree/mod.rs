@@ -18,13 +18,13 @@ impl<T: Ord> Tree<T> {
         }
     }
 
-    fn find(&self, v: &T) -> Option<Box<&Node<T>>> {
-        let mut node = Some(Box::new(&self.root));
-        while node.is_some() && &node.as_ref().unwrap().v != v {
-            if v < &node.as_ref().unwrap().v { // 选择左边节点
-                node = Some(Box::new(node.as_ref().unwrap().left.as_ref().unwrap().as_ref()));
-            } else { // 选择右边节点
-                node = Some(Box::new(node.as_ref().unwrap().right.as_ref().unwrap().as_ref()));
+    fn find(&self, v: &T) -> Option<&Node<T>> {
+        let mut node = Some(&self.root);
+        while node.is_some() && &node.unwrap().v != v {
+            if v < &node.unwrap().v { // 选择左边节点
+                node = Some(node.unwrap().left.as_ref().unwrap().as_ref());
+            } else {
+                node = Some(node.unwrap().right.as_ref().unwrap().as_ref());
             }
         }
         node
@@ -46,6 +46,30 @@ impl<T: Ord> Tree<T> {
                 }
                 current = current.right.as_mut().unwrap();
             }
+        }
+    }
+
+    fn inorder_traversal(&self, node: Option<&Node<T>>) {
+        if let Some(n) = node {
+            self.inorder_traversal(n.left.as_ref().map(|v| v.as_ref()));
+            // todo 访问节点
+            self.inorder_traversal(n.right.as_ref().map(|v| v.as_ref()));
+        }
+    }
+
+    fn preorder_traversal(&self, node: Option<&Node<T>>) {
+        if let Some(n) = node {
+            // todo 访问节点
+            self.preorder_traversal(n.left.as_ref().map(|v| v.as_ref()));
+            self.preorder_traversal(n.right.as_ref().map(|v| v.as_ref()));
+        }
+    }
+
+    fn postorder_traversal(&self, node: Option<&Node<T>>) {
+        if let Some(n) = node {
+            self.postorder_traversal(n.left.as_ref().map(|v| v.as_ref()));
+            self.postorder_traversal(n.right.as_ref().map(|v| v.as_ref()));
+            // todo 访问节点
         }
     }
 
