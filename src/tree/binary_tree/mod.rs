@@ -72,6 +72,22 @@ impl<T: Ord> Tree<T> {
         }
     }
 
+    fn min_node(&self) -> &Node<T> {
+        let mut node = &self.root;
+        while let Some(v) = &node.left {
+            node = v;
+        }
+        node
+    }
+
+    fn max_node(&self) -> &Node<T> {
+        let mut node = &self.root;
+        while let Some(v) = &node.right {
+            node = v;
+        }
+        node
+    }
+
     fn delete(&mut self, v: &T) -> Option<Node<T>> {
         todo!()
     }
