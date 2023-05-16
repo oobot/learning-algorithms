@@ -28,7 +28,6 @@ image::../../../assets/images/tree/search_node.svg[alt="", title="查找节点"]
 
 https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L20-L30
 
-=== 效率
 从上面的查找过程可以看出，二叉查找树查找节点的时间复杂度是__O__(log__n__)，查找节点所需的次数取决于这个节点所在的层数。节点所在层数越浅，所需步骤越少；层数越深，所需步骤就越多。
 
 == 插入
