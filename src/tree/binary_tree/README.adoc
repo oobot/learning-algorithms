@@ -97,7 +97,7 @@ image::../../../assets/images/tree/replace_by_successor.svg[alt="", title="被�
 如果初始节点的右子节点没有左子结点，那么这个右子节点本身就是后继结点。
 
 代码示例：
-https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#LL96C1-L114C6
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L96-L114
 
 https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L128-L136
 
