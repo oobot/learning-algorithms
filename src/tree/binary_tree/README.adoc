@@ -16,7 +16,7 @@ image::../../../assets/images/tree/unbalanced_binary_search_tree.svg[alt="", tit
 
 用 `Node` 表示一个节点，节点有 `T` 类型的值，可能有左子节点和右子节点。`Tree` 表示一棵树，查找、插入和删除方法定义在 `Tree` 上。
 
-https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L2-L10
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L4-L12
 
 == 查找
 
@@ -26,7 +26,7 @@ image::../../../assets/images/tree/search_node.svg[alt="", title="查找节点"]
 
 代码示例：
 
-https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L20-L30
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L20-L30
 
 从上面的查找过程可以看出，二叉查找树查找节点的时间复杂度是__O__(log__n__)，查找节点所需的次数取决于这个节点所在的层数。节点所在层数越浅，所需步骤越少；层数越深，所需步骤就越多。
 
@@ -38,7 +38,7 @@ image::../../../assets/images/tree/insert_node.svg[alt="", title="插入节点"]
 
 代码示例：
 
-https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84bf0593427b/src/tree/binary_tree/mod.rs#L32-L49
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L20-L30
 
 == 遍历
 
@@ -77,10 +77,10 @@ https://github.com/oobot/learning-algorithms/blob/66f52e2953cf6fa8bb1b44a839da84
 查找二叉搜索树的最大值和最小值很容易。只要理解好二叉搜索树的本质：从根节点一直往左走，直到节点不再有左子节点，那么此节点便是最小值的节点。查找最大值同理，从根节点一直往右走，找到右叶子节点，此叶子节点便是最大值的节点。
 
 查找最小值::
-https://github.com/oobot/learning-algorithms/blob/2e4fb347983314d5ff6a6bcbdd285904736e4abb/src/tree/binary_tree/mod.rs#L75-L81
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L80-L86
 
 查找最大值::
-https://github.com/oobot/learning-algorithms/blob/2e4fb347983314d5ff6a6bcbdd285904736e4abb/src/tree/binary_tree/mod.rs#L83-L89
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L80-L86
 
 == 删除
 
@@ -97,14 +97,14 @@ image::../../../assets/images/tree/replace_by_successor.svg[alt="", title="被�
 如果初始节点的右子节点没有左子结点，那么这个右子节点本身就是后继结点。
 
 代码示例：
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#LL96C1-L114C6
 
+https://github.com/oobot/learning-algorithms/blob/ad0a68048573eac3bcc6a36ffcd0bf23b7544d99/src/tree/binary_tree/mod.rs#L128-L136
+
+在匹配到初始节点时，代码使用了指针操作，在一些不支持指针操作的编程语言里，例如 Java，可能需要多保存一个指向父节点的变量。解引用后可以让指针指向新的对象，而不需要保存父节点。在初始节点有两个子节点的情况下，替换节点时只需替换节点的值即可。
 
 还有一种简单的解决办法可以避开删除节点这个棘手的问题。对于要删除的节点，我们可以给它添加一个标记，表示它已经无效了。在删除情况不多的情况下，这么做还是挺有用的。但是如果删除操作有很多，这么做的话会让整棵树的查找效率变得低下。
 
 == 效率
-
-TODO
-
-== 用数组表示树
 
 TODO
