@@ -1,3 +1,5 @@
+use std::cmp::Ordering;
+use std::fmt::Debug;
 
 struct Tree<T: Ord> {
     root: Option<Box<Node<T>>>,
@@ -9,7 +11,7 @@ struct Node<T> {
     right: Option<Box<Node<T>>>,
 }
 
-impl<T: Ord> Tree<T> {
+impl<T: Ord + Debug> Tree<T> {
 
     fn new () -> Self {
         Self { root: None }
@@ -91,9 +93,24 @@ impl<T: Ord> Tree<T> {
         Some(node)
     }
 
-    fn delete(&mut self, v: &T) -> Option<Node<T>> {
-
-        todo!()
+    fn delete(&mut self, v: &T) {
+        let mut current = &mut self.root;
+        while let Some(node) = current {
+            match v.cmp(&node.v) {
+                Ordering::Less => current = &mut current.as_mut().unwrap().left,
+                Ordering::Greater => current = &mut current.as_mut().unwrap().right,
+                Ordering::Equal => {
+                    match (node.left.as_mut(), node.right.as_mut()) {
+                        (None, None) => *current = None,
+                        (Some(_), None) => *current = node.left.take(),
+                        (None, Some(_)) => *current = node.right.take(),
+                        (Some(_), Some(_)) =>
+                            current.as_mut().unwrap().v =
+                                Node::extract_min(&mut node.right).unwrap().v,
+                    }
+                }
+            }
+        }
     }
 
 }
@@ -105,5 +122,41 @@ impl<T> Node<T> {
             left: None,
             right: None,
         }
+    }
+
+    /// Include node
+    fn extract_min(node: &mut Option<Box<Node<T>>>) -> Option<Box<Node<T>>> {
+        let mut current = node;
+        while let Some(v) = &mut current.as_mut().unwrap().left {
+            current = &mut current.as_mut().unwrap().left;
+        }
+        let node = current.take();
+        *current = None;
+        node
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test() {
+        let mut tree = Tree::new();
+        tree.insert(100);
+        tree.insert(14);
+        tree.insert(60);
+        tree.insert(90);
+        tree.insert(33);
+        tree.insert(2);
+        tree.insert(80);
+        tree.insert(56);
+        // let node = tree.root.as_ref().map(|v| v.as_ref());
+        // tree.inorder_traversal(node);
+
+        tree.delete(&60);
+        let node = tree.root.as_ref().map(|v| v.as_ref());
+        tree.inorder_traversal(node);
+
     }
 }
