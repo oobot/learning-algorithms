@@ -1,46 +1,49 @@
 
+struct Tree<T: Ord> {
+    root: Option<Box<Node<T>>>,
+}
+
 struct Node<T> {
     v: T,
     left: Option<Box<Node<T>>>,
     right: Option<Box<Node<T>>>,
 }
 
-struct Tree<T: Ord> {
-    root: Node<T>,
-}
-
 impl<T: Ord> Tree<T> {
 
-    fn from(v: T) -> Self {
-        Self {
-            root: Node::from(v)
-        }
+    fn new () -> Self {
+        Self { root: None }
     }
 
     fn find(&self, v: &T) -> Option<&Node<T>> {
-        let mut node = Some(&self.root);
+        let mut node = self.root.as_ref();
         while node.is_some() && &node.unwrap().v != v {
             if v < &node.unwrap().v { // 选择左边节点
-                node = Some(node.unwrap().left.as_ref().unwrap().as_ref());
+                node = node.unwrap().left.as_ref();
             } else {
-                node = Some(node.unwrap().right.as_ref().unwrap().as_ref());
+                node = node.unwrap().right.as_ref();
             }
         }
-        node
+        node.map(|v| v.as_ref())
     }
 
     fn insert(&mut self, v: T) {
-        let mut current = &mut self.root;
+        if self.root.is_none() {
+            self.root.insert(Box::new(Node::from(v)));
+            return;
+        }
+
+        let mut current = self.root.as_mut().unwrap();
         loop {
             if &v < &current.v { // 走左边
                 if current.left.is_none() {
-                    current.left = Some(Box::new(Node::from(v)));
+                    current.left.replace(Box::new(Node::from(v)));
                     return;
                 }
                 current = current.left.as_mut().unwrap();
             } else { // 走右边
                 if current.right.is_none() {
-                    current.right = Some(Box::new(Node::from(v)));
+                    current.right.replace(Box::new(Node::from(v)));
                     return;
                 }
                 current = current.right.as_mut().unwrap();
@@ -72,23 +75,24 @@ impl<T: Ord> Tree<T> {
         }
     }
 
-    fn min_node(&self) -> &Node<T> {
-        let mut node = &self.root;
+    fn min_node(&self) -> Option<&Node<T>> {
+        let mut node = self.root.as_ref()?;
         while let Some(v) = &node.left {
             node = v;
         }
-        node
+        Some(node)
     }
 
-    fn max_node(&self) -> &Node<T> {
-        let mut node = &self.root;
+    fn max_node(&self) -> Option<&Node<T>> {
+        let mut node = self.root.as_ref()?;
         while let Some(v) = &node.right {
             node = v;
         }
-        node
+        Some(node)
     }
 
     fn delete(&mut self, v: &T) -> Option<Node<T>> {
+
         todo!()
     }
 
