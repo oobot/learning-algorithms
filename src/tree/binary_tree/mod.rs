@@ -57,6 +57,7 @@ impl<T: Ord + Debug> Tree<T> {
         if let Some(n) = node {
             self.inorder_traversal(n.left.as_ref().map(|v| v.as_ref()));
             // todo 访问节点
+            println!("{:?}", n.v);
             self.inorder_traversal(n.right.as_ref().map(|v| v.as_ref()));
         }
     }
@@ -130,9 +131,9 @@ impl<T> Node<T> {
         while let Some(v) = &mut current.as_mut().unwrap().left {
             current = &mut current.as_mut().unwrap().left;
         }
-        let node = current.take();
-        *current = None;
-        node
+        let mut node = current.take()?; // 值必定存在
+        *current = node.right.take();
+        Some(node)
     }
 }
 
@@ -154,7 +155,7 @@ mod tests {
         // let node = tree.root.as_ref().map(|v| v.as_ref());
         // tree.inorder_traversal(node);
 
-        tree.delete(&60);
+        tree.delete(&14);
         let node = tree.root.as_ref().map(|v| v.as_ref());
         tree.inorder_traversal(node);
 
