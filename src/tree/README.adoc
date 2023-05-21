@@ -16,17 +16,17 @@
 
 下图展示了一棵普通的树。
 
-image::../../assets/images/tree/normal_tree.svg[alt="", title="一棵普通的树"]
+image::images/normal_tree.svg[alt="", title="一棵普通的树"]
 
 树的顶层始终只有一个节点，连接节点的直线称为边，它表示关联节点间的路径。从根节点到其它任何节点的路径有且只有一条。树顶层节点通过边连接到第二层的多个节点，然后第二层的节点连接到第三层的多个节点，依此类推。就像真的树颠倒过来，顶部小，底部大。下图并不是树，因为从根节点到某个节点多于一条路径。
 
-image::../../assets/images/tree/not_tree.svg[alt="", title="不是树"]
+image::images/not_tree.svg[alt="", title="不是树"]
 
 === 术语
 
 普通树的子节点有多个，多于两个，称为多路树。下图展示的是二叉树，它是一种特殊的树。二叉树的每个节点最多有两个子节点。
 
-image::../../assets/images/tree/tree_terms.svg[alt="", title="树的术语"]
+image::images/tree_terms.svg[alt="", title="树的术语"]
 
 路径:: 顺着节点从一个节点到领一个节点，所经过的节点边称为"路径"。
 

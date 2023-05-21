@@ -22,3 +22,4 @@
 
 == 树
 * link:src/tree/[树]
+* link:src/tree/binary_search_tree/[二叉查找树]

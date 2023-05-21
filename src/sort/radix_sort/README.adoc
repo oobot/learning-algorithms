@@ -8,11 +8,11 @@
 
 来看待排序数组 `[101, 1, 20, 50, 9, 98, 27, 153, 35, 899]` 过程示意：
 
-image::../../../assets/images/radix-sort-1.png[alt="", title="按个位排序数组，以及按顺序取出后的结果"]
+image::images/radix-sort-1.png[alt="", title="按个位排序数组，以及按顺序取出后的结果"]
 
-image::../../../assets/images/radix-sort-2.png[alt="", title="按十位排序数组，以及按顺序取出后的结果"]
+image::images/radix-sort-2.png[alt="", title="按十位排序数组，以及按顺序取出后的结果"]
 
-image::../../../assets/images/radix-sort-3.png[alt="", title="按百位排序数组，以及按顺序取出后的结果"]
+image::images/radix-sort-3.png[alt="", title="按百位排序数组，以及按顺序取出后的结果"]
 
 代码示例：
 https://github.com/oobot/learning-algorithms/blob/023597536fc74f68b942da20c58a3472d6f75c21/src/sort/radix_sort/mod.rs#L1-L40

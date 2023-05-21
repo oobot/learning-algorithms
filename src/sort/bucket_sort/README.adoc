@@ -8,11 +8,11 @@
 
 假设要对数组 `[29, 25, 3, 49, 9, 37, 21, 43]` 执行桶排序。肉眼可以观察最大值最小值在50以内，并且数组的元素总数不超过10个。所以桶的划分策略可以是这样的：以10为区间划分每个桶，即第一个桶区间是0\~9，第二个是10~19，依此类推。下图展示元素是如何分配到桶中的。
 
-image::../../../assets/images/Bucket_sort_1.svg[alt="元素分配到桶中", caption="图一：", title="元素分配到桶中"]
+image::images/Bucket_sort_1.svg[alt="元素分配到桶中", caption="图一：", title="元素分配到桶中"]
 
 元素分配到桶之后，接下来需要对桶中的多个元素排序。如果所示。
 
-image::../../../assets/images/Bucket_sort_2.svg[alt="对桶中元素排序", caption="图二：", title="对桶中元素排序"]
+image::images/Bucket_sort_2.svg[alt="对桶中元素排序", caption="图二：", title="对桶中元素排序"]
 
 代码示例：
 
