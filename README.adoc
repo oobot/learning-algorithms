@@ -23,3 +23,4 @@
 == 树
 * link:src/tree/[树]
 * link:src/tree/binary_search_tree/[二叉查找树]
+* link:src/tree/red_black_tree/[红黑树]
