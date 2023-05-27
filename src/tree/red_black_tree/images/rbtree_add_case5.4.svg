@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="1603 263 756 298" width="756" height="298">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="rbtree_add_case5_4" fill="none" stroke="none" stroke-dasharray="none" fill-opacity="1" stroke-opacity="1">
+    <title>rbtree_add_case5.4</title>
+    <g id="rbtree_add_case5_4_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_46">
+        <circle cx="1673.5" cy="358.25" r="16.0000255664304" fill="black"/>
+        <circle cx="1673.5" cy="358.25" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1665.7 350.054)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x="3.908" y="13">8</tspan>
+        </text>
+      </g>
+      <g id="Graphic_45">
+        <circle cx="1673.5" cy="280" r="16.0000255664304" fill="#ccc"/>
+        <path d="M 1684.8137 268.6863 C 1691.0621 274.9347 1691.0621 285.0653 1684.8137 291.3137 C 1678.5653 297.5621 1668.4347 297.5621 1662.1863 291.3137 C 1655.9379 285.0653 1655.9379 274.9347 1662.1863 268.6863 C 1668.4347 262.4379 1678.5653 262.4379 1684.8137 268.6863" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+        <text transform="translate(1665.7 271.804)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="4.174" y="13">x</tspan>
+        </text>
+      </g>
+      <g id="Line_44">
+        <line x1="1673.5" y1="342.25" x2="1673.5" y2="296" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_43">
+        <circle cx="1716.5" cy="429.5" r="16.0000255664305" fill="red"/>
+        <circle cx="1716.5" cy="429.5" r="16.0000255664305" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1708.7 421.304)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">16</tspan>
+        </text>
+      </g>
+      <g id="Line_40">
+        <line x1="1681.7692" y1="371.95184" x2="1708.2308" y2="415.79816" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_62">
+        <text transform="translate(1608 449.334)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">新插入节点</tspan>
+        </text>
+      </g>
+      <g id="Graphic_143">
+        <circle cx="1840.938" cy="358.25" r="16.0000255664304" fill="black"/>
+        <circle cx="1840.938" cy="358.25" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1833.138 350.054)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x="3.908" y="13">8</tspan>
+        </text>
+      </g>
+      <g id="Graphic_142">
+        <circle cx="1840.938" cy="280" r="16.0000255664304" fill="#ccc"/>
+        <path d="M 1852.2517 268.6863 C 1858.5001 274.9347 1858.5001 285.0653 1852.2517 291.3137 C 1846.0033 297.5621 1835.8727 297.5621 1829.6243 291.3137 C 1823.3759 285.0653 1823.3759 274.9347 1829.6243 268.6863 C 1835.8727 262.4379 1846.0033 262.4379 1852.2517 268.6863" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+        <text transform="translate(1833.138 271.804)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="4.174" y="13">x</tspan>
+        </text>
+      </g>
+      <g id="Line_141">
+        <line x1="1840.938" y1="342.25" x2="1840.938" y2="296" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_140">
+        <circle cx="1920.062" cy="494" r="16.0000255664304" fill="red"/>
+        <circle cx="1920.062" cy="494" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1912.262 485.804)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">16</tspan>
+        </text>
+      </g>
+      <g id="Graphic_139">
+        <circle cx="1886.3675" cy="429.5" r="16.0000255664304" fill="#ff8080"/>
+        <circle cx="1886.3675" cy="429.5" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1878.5675 421.304)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">12</tspan>
+        </text>
+      </g>
+      <g id="Line_138">
+        <line x1="1893.7778" y1="443.68533" x2="1912.6517" y2="479.81467" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_137">
+        <line x1="1849.5418" y1="371.74385" x2="1877.7637" y2="416.00615" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_136">
+        <text transform="translate(1786.938 487)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">新插入节点</tspan>
+        </text>
+      </g>
+      <g id="Graphic_144">
+        <path d="M 1712.969 361.80927 L 1712.969 354.69073 L 1781.082 354.69073 L 1781.082 348.75 L 1801.469 358.25 L 1781.082 367.75 L 1781.082 361.80927 Z" fill="white"/>
+        <path d="M 1712.969 361.80927 L 1712.969 354.69073 L 1781.082 354.69073 L 1781.082 348.75 L 1801.469 358.25 L 1781.082 367.75 L 1781.082 361.80927 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_145">
+        <circle cx="1690" cy="494" r="16.0000255664304" fill="#ff8080"/>
+        <circle cx="1690" cy="494" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1682.2 485.804)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">12</tspan>
+        </text>
+      </g>
+      <g id="Line_146">
+        <line x1="1696.082" y1="479.19655" x2="1710.418" y2="444.30345" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_147">
+        <path d="M 1623 420.332 L 1645.444 420.332 C 1647.6531 420.332 1649.444 422.12286 1649.444 424.332 L 1649.444 434.668 C 1649.444 436.87714 1647.6531 438.668 1645.444 438.668 L 1623 438.668 C 1620.7909 438.668 1619 436.87714 1619 434.668 L 1619 424.332 C 1619 422.12286 1620.7909 420.332 1623 420.332 Z" fill="black"/>
+        <text transform="translate(1625 422.332)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" fill="white" x="0" y="11">NIL</tspan>
+        </text>
+      </g>
+      <g id="Line_148">
+        <line x1="1665.7736" y1="372.26556" x2="1639.276" y2="420.332" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_149">
+        <path d="M 1794.159 420.332 L 1816.603 420.332 C 1818.8121 420.332 1820.603 422.12286 1820.603 424.332 L 1820.603 434.668 C 1820.603 436.87714 1818.8121 438.668 1816.603 438.668 L 1794.159 438.668 C 1791.9499 438.668 1790.159 436.87714 1790.159 434.668 L 1790.159 424.332 C 1790.159 422.12286 1791.9499 420.332 1794.159 420.332 Z" fill="black"/>
+        <text transform="translate(1796.159 422.332)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="12" fill="white" x="0" y="11">NIL</tspan>
+        </text>
+      </g>
+      <g id="Line_150">
+        <line x1="1833.7916" y1="372.5702" x2="1809.9562" y2="420.332" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_176">
+        <circle cx="2080.416" cy="358.25" r="16.0000255664304" fill="black"/>
+        <circle cx="2080.416" cy="358.25" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2072.616 350.054)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x="3.908" y="13">8</tspan>
+        </text>
+      </g>
+      <g id="Graphic_175">
+        <circle cx="2080.416" cy="280" r="16.0000255664304" fill="#ccc"/>
+        <path d="M 2091.7297 268.6863 C 2097.978 274.9347 2097.978 285.0653 2091.7297 291.3137 C 2085.4813 297.5621 2075.3507 297.5621 2069.1023 291.3137 C 2062.854 285.0653 2062.854 274.9347 2069.1023 268.6863 C 2075.3507 262.4379 2085.4813 262.4379 2091.7297 268.6863" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+        <text transform="translate(2072.616 271.804)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="4.174" y="13">x</tspan>
+        </text>
+      </g>
+      <g id="Line_174">
+        <line x1="2080.416" y1="342.25" x2="2080.416" y2="296" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_173">
+        <circle cx="2123.583" cy="429.5" r="16.0000255664304" fill="red"/>
+        <circle cx="2123.583" cy="429.5" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2115.783 421.304)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">16</tspan>
+        </text>
+      </g>
+      <g id="Line_172">
+        <line x1="2088.7087" y1="371.9376" x2="2115.2903" y2="415.8124" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_171">
+        <text transform="translate(1988.186 463)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">新插入节点</tspan>
+        </text>
+      </g>
+      <g id="Graphic_169">
+        <circle cx="2250.833" cy="358.25" r="16.0000255664304" fill="black"/>
+        <circle cx="2250.833" cy="358.25" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2243.033 350.054)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x="3.908" y="13">8</tspan>
+        </text>
+      </g>
+      <g id="Graphic_168">
+        <circle cx="2250.833" cy="280" r="16.0000255664304" fill="#ccc"/>
+        <path d="M 2262.1467 268.6863 C 2268.395 274.9347 2268.395 285.0653 2262.1467 291.3137 C 2255.8983 297.5621 2245.7677 297.5621 2239.5193 291.3137 C 2233.271 285.0653 2233.271 274.9347 2239.5193 268.6863 C 2245.7677 262.4379 2255.8983 262.4379 2262.1467 268.6863" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+        <text transform="translate(2243.033 271.804)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="4.174" y="13">x</tspan>
+        </text>
+      </g>
+      <g id="Line_167">
+        <line x1="2250.833" y1="342.25" x2="2250.833" y2="296" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_166">
+        <circle cx="2342.25" cy="490" r="16.0000255664304" fill="red"/>
+        <circle cx="2342.25" cy="490" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2334.45 481.804)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">16</tspan>
+        </text>
+      </g>
+      <g id="Graphic_165">
+        <circle cx="2300.833" cy="429.5" r="16.0000255664303" fill="#ff8080"/>
+        <circle cx="2300.833" cy="429.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2293.033 421.304)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">12</tspan>
+        </text>
+      </g>
+      <g id="Line_164">
+        <line x1="2309.8729" y1="442.705" x2="2333.21" y2="476.795" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_163">
+        <line x1="2260.0253" y1="371.34906" x2="2291.6407" y2="416.40094" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_162">
+        <text transform="translate(2198.75 483)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">新插入节点</tspan>
+        </text>
+      </g>
+      <g id="Graphic_160">
+        <path d="M 2121.3745 361.80927 L 2121.3745 354.69073 L 2189.4875 354.69073 L 2189.4875 348.75 L 2209.8745 358.25 L 2189.4875 367.75 L 2189.4875 361.80927 Z" fill="white"/>
+        <path d="M 2121.3745 361.80927 L 2121.3745 354.69073 L 2189.4875 354.69073 L 2189.4875 348.75 L 2209.8745 358.25 L 2189.4875 367.75 L 2189.4875 361.80927 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_159">
+        <circle cx="2090.5" cy="492" r="16.0000255664304" fill="#ff8080"/>
+        <circle cx="2090.5" cy="492" r="16.0000255664304" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2082.7 483.804)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x=".01600019" y="13">12</tspan>
+        </text>
+      </g>
+      <g id="Line_158">
+        <line x1="2097.9873" y1="477.85515" x2="2116.0957" y2="443.64485" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_177">
+        <circle cx="2037.416" cy="429.5" r="16.0000255664305" fill="black"/>
+        <circle cx="2037.416" cy="429.5" r="16.0000255664305" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2029.616 421.304)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x="3.908" y="13">4</tspan>
+        </text>
+      </g>
+      <g id="Line_178">
+        <line x1="2072.1468" y1="371.95184" x2="2045.6852" y2="415.79816" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_179">
+        <circle cx="2209.75" cy="429.5" r="16.0000255664303" fill="black"/>
+        <circle cx="2209.75" cy="429.5" r="16.0000255664303" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(2201.95 421.304)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="14" fill="white" x="3.908" y="13">4</tspan>
+        </text>
+      </g>
+      <g id="Line_180">
+        <line x1="2242.8388" y1="372.11432" x2="2217.7442" y2="415.6357" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_184">
+        <text transform="translate(1711.7125 538)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">对节点16右旋转</tspan>
+        </text>
+      </g>
+      <g id="Graphic_185">
+        <text transform="translate(2120.118 538)" fill="black">
+          <tspan font-family="PingFang SC" font-size="13" fill="black" x="0" y="14">对节点16右旋转</tspan>
+        </text>
+      </g>
+      <g id="Line_191">
+        <line x1="1655.2465" y1="472.334" x2="1662.4615" y2="479.18373" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_192">
+        <line x1="1835.5" y1="475.5" x2="1858.91" y2="452.31467" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_193">
+        <line x1="2050.0156" y1="486" x2="2059.612" y2="490.5807" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_194">
+        <line x1="2237" y1="476" x2="2271.9855" y2="449.91727" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
